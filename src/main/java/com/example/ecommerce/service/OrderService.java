@@ -14,7 +14,7 @@ import com.example.ecommerce.repository.OrderRepository;
 import com.example.ecommerce.repository.ProductRepository;
 
 @Service
-public class OrderService {
+public class OrderService { 
     @Autowired
     private ProductRepository productRepository;
 
